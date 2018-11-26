@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Web Site IS</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" href="images/centar1.png">
+    <style>
+        .selector .c1 input:checked + label {
+  background: #355767;
+}
+.selector .c2 input:checked + label {
+  background: #347180;
+}
+.selector .c3 input:checked + label {
+  background: #9cd67e;
+}
+.selector .c4 input:checked + label {
+  background: #67cc73;
+}
+.selector .c5 input:checked + label {
+  background: #f5a330;
+}
+.selector .c6 input:checked + label {
+  background: #ed4d33;
+}
+.selector .c7 input:checked + label {
+  background: #159699;
+}
+.selector .c8 input:checked + label {
+  background: #1e7c6c;
+}
+</style>
+</head>
+
+<body>
+    <section class="quotations">
+        <div class="quotation">
+            <p>"Jede Epoche hat ihre Wunder"</p>
+            <p>Mag. Nino Dalipovic</p>
+        </div>
+    </section>
+    <div class='proba'></div>
+    <div class='selector'>
+        <ul>
+            <li class="c1 tooltip">
+                <input id='c1' type='checkbox'>
+                <label for='c1'><a href="../index.html"><img src="images/Group 7.png" width="50" height="45" alt="" /></a></label><span class="tooltiptext">Sprache </span>
+            </li>
+            <li class="c2 tooltip">
+                <input id='c2' type='checkbox'>
+                <label for='c2'><a href="contact.html"><img class="img2" src="images/ic_local_phone_48_px.png" width="50" height="50" alt="" /></a></label><span class="c2">Kontakt</span>
+            </li>
+            <li class="c3 tooltip">
+                <input id='c3' type='checkbox'>
+                <label for='c3'><a href="aboutus.html"><img class="img3" src="images/ic_supervisor_account_48_px.png" width="50" height="50" alt="" /></a></label><span class="c3">Über Uns</span>
+            </li>
+            <li class="c4 tooltip">
+                <input id='c4' type='checkbox'>
+                <label for='c4'><a href="ourtopics.html"><img src="images/ic_fingerprint_48_px.png" width="50" height="50" alt="" /></a></label><span class="c4">Unsere Themen</span>
+            </li>
+            <li class="c5 tooltip">
+                <input id='c5' type='checkbox'>
+                <label for='c5'><a href="ourproducts.html"><img class="img5" src="images/ic_important_devices_48_px.png" width="50" height="40" alt="" /></a></label><span class="c5">Produkte</span>
+            </li>
+            <li class="c6 tooltip">
+                <input id='c6' type='checkbox'>
+                <label for='c6'><a href="vision.html"><img class="img6" src="images/eye1.png" width="57" height="44" alt="" /></a></label><span class="c6">Vision , Mission <br>& Werte Mission</span>
+            </li>
+            <li class="c7 tooltip">
+                <input id='c7' type='checkbox'>
+                <label for='c7'><a href="idea.html"><img class="img7" src="images/Group 4.png" width="40" height="60" alt="" /></a></label><span class="c7">Idee zünden</span>
+            </li>
+            <li class="c8 tooltip">
+                <input id='c8' type='checkbox'>
+                <label for='c8'><a href="protection.html"><img class="img8" src="images/ic_copyright_48_px.png" width="50" height="50" alt="" /></a></label><span class="c8">Impressum</span>
+            </li>
+        </ul>
+        <button><img src="images/centar1.png" width="220" height="220" style="margin-left:-6.5%; margin-top:-2.3%;" alt="" /></button>
+    </div>
+    <div>
+        <a class="burgermenu"><img src="images/burgermenu.png" alt="..." onclick="toggleBurgerMain()" width="80px" height="80px"></a>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/menu.js"></script>
+
+    <div class="container menu1 nopad" id="relative">
+        <div class="row">
+            <div class="right">
+                <div class="item col-md-1">
+                    <a href="aboutus.html">
+                        <div class="parent">
+                            <div class="c3-3"><span class="c3text">Über Uns</span></div>
+                        </div>
+                    </a></div>
+                <div class="item col-md-1">
+                    <a href="ourtopics.html">
+                        <div class="parent">
+                            <div class="c4-4"><span class="c4text">Unsere Themen</span></div>
+                        </div>
+                    </a></div>
+                <div class="item col-md-1">
+                    <a href="ourproducts.html">
+                        <div class="parent">
+                            <div class="c5-5"><span class="c5text">Produkte</span></div>
+                        </div>
+                    </a></div>
+                <div class="item col-md-1">
+                    <a href="vision.html">
+                        <div class="parent">
+                            <div class="c6-6"><span class="c6text">Vision</span><br></div>
+                        </div>
+                    </a></div>
+                <div class="item col-md-1">
+                    <a href="idea.html">
+                        <div class="parent">
+                            <div class="c7-7"><span class="c7text">Idee zünden</span></div>
+                        </div>
+                    </a></div>
+                <div class="item col-md-1">
+                    <a href="protection.html">
+                        <div class="parent">
+                            <div class="c8-8"><span class="c8text">Impressum</span></div>
+                        </div>
+                    </a></div>
+                <div class="item col-md-1 last">
+                    <a href="../index.html">
+                        <div class="parent">
+                            <div class="c1-1"><span class="c1text">Sprache</span></div>
+                        </div>
+                    </a></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
